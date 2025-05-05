@@ -2,7 +2,7 @@ import re
 from collections.abc import Iterable, Sequence
 from typing import Union
 
-from cantools.database.errors import DecodeError
+from ..database.errors import DecodeError
 
 from ..database.can.database import Database
 from ..database.can.message import Message

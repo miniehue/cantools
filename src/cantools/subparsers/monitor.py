@@ -10,7 +10,7 @@ from typing import Any, Union
 import can
 from argparse_addons import Integer
 
-from cantools.database.errors import DecodeError
+from ..database.errors import DecodeError
 
 from .. import database
 from ..typechecking import SignalDictType
